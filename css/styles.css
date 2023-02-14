@@ -1,0 +1,53 @@
+nav  {
+    margin-left: 0px;
+    display: flex;
+}
+
+.logo-to-home ul li {
+    list-style: none;
+    display: inline;
+}
+
+.gdsc-plm-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.haripedia-logo {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.main-menu {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    text-transform:uppercase;
+    padding: 25px;
+    
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
